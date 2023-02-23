@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	printf("_putchart");
+	printf("_putchar\n");
 
 	return (0);
 }
