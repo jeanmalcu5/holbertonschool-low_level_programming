@@ -13,7 +13,7 @@ oclean:
 	$(RM) $(OBJ)
 
 fclean:
-	$(RM) $(NAME) $(OBJ)
+	clean clean
 
 re:
-	$(CC) $(OBJ)
+	oclean all
