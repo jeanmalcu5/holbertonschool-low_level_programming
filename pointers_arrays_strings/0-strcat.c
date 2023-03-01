@@ -9,7 +9,7 @@ char *_strcat(char *dest, char *src)
 {
 	char dest[15]= "Hello ";
 	char src[7]= "World!";
-	strcat(dest, src);
+
 	_putchar("%s");
 	_putchar(dest);
 
