@@ -7,10 +7,10 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *dest[15]= "Hello ";
+	char *dest[15]= "Hello, ";
 	char *src[7]= "World!";
 
-	_putchar("%s");
+	_putchar(*src);
 	_putchar(*dest);
 
 	return (0);
