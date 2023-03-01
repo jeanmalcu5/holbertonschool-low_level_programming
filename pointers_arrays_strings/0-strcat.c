@@ -6,5 +6,6 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	printf("The concatenated string is: %s ", *dest);
+	_putchar(*dest);
+	_putchar(*src);
 }
