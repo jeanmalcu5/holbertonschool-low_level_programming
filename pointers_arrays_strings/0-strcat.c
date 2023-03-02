@@ -3,15 +3,19 @@
  * *_strcat - concatenates two strings.
  * @*dest: destination string
  * @*src: source string
- * Return: 0
+ * Return: concatenated string
  */
 char *_strcat(char *dest, char *src)
 {
-	char *dest[15]= "Hello, ";
-	char *src[7]= "World!";
+	int d, s;
 
-	_putchar(*src);
-	_putchar(*dest);
+	for (d = 0; dest[d] != '\0'; i++)
+	{
+	}
 
-	return (0);
+	for (s = 0; (dest[d + s] = *src++) != '\0'; s++)
+	{
+	}
+
+	return (dest);
 }
