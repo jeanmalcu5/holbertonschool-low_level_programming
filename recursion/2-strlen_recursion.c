@@ -10,5 +10,5 @@ int _strlen_recursion(char *s)
 	for (i = 0; *s != '\0'; ++i);
 
 	_putchar(*s);
-	return (*S);
+	return (*s);
 }
