@@ -6,19 +6,17 @@
  */
 void _puts_recursion(char *s)
 {
-	int len = strlen(str) + 1;
-  char *temp = alloca(len);
+	if (*s != '\0')
+	{
+		_putchar(*s);
+		s++;
+	}
 
-  int i;
-  for (i = 0; i < len; i++)
-  {
-    char ch = str[i];
-    if (ch == '\n')
-      break;
-    temp[i] = ch;
-  }
+	if (*s == '\0')
+	{
+		_putchar('\n');
+		return;
+	}
 
-  temp[i] = 0;
-
-  puts(temp);
+	_puts_recursion(s);
 }
