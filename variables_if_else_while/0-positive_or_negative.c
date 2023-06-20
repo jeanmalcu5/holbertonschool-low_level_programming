@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 /**
  * main - print whether the number stored in the variable is positive or negative. 
  * Return: Always 0
