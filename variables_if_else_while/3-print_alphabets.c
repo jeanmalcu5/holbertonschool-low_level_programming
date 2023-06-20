@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - 
- * Return: 
+ * main - prints the alphabet in lowercase, then uppercase.
+ * Return: Always 0.
  */
 int main(void)
 {
