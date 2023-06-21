@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - prints _puthchar, followed by a new line.
  * Return: Always 0.
@@ -13,6 +13,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_puthcar('\n');
 
 	return (0);
 }
