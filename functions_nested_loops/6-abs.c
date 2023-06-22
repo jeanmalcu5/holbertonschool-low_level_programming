@@ -6,9 +6,18 @@
  */
 int _abs(int n)
 {
+	int a;
+	int b;
+
+	a = n * (-1);
+	b = n;
+
 	if (n < 0)
 	{
-		n=abs(n);
-		_putchar(n);
+		return (a);
+	}
+	else
+	{
+		return (b);
 	}
 }
