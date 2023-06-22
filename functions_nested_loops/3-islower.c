@@ -5,5 +5,12 @@
  */
 int _islower(int c);
 {
-
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	else (c <= 'A' && c <= 'Z')
+	{
+		return (0);
+	}
 }
