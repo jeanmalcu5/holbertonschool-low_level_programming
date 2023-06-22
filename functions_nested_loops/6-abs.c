@@ -11,5 +11,5 @@ int _abs(int)
 		int = (-1) * int;
 	}
 
-	printf("%d", int);
+	_putchar(int);
 }
