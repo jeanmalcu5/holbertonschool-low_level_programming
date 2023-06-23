@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * add -
+ * add - Adds two integers and returns result.
+ * Return: a + b.
  */
 int add(int a, int b)
 {
