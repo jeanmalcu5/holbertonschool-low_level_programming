@@ -1,3 +1,2 @@
 all: main.c school.c
-	CC
-	SRC main.c school.c -o *.c
+	$$CC $$SRC *.c -o school
