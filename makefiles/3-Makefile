@@ -13,4 +13,4 @@ fclean:
 	$(RM) $(SRC) $(NAME)
 	$(RM) $(OBJ) $(NAME)
 re:
-	$(RM) -f $(SRC) $(OBJ)
+	$(RM) $(SRC) $(OBJ)
