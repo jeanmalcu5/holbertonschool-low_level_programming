@@ -6,12 +6,15 @@
  */
 int _isupper(int c)
 {
-	if (c == 'C')
+	for (c <= 'A'; c >= 'Z'; c++)
 	{
-		return (1);
-	}
-	else
-	{
-		return (0);
+		if (c == 'C')
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 	}
 }
