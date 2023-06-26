@@ -7,10 +7,5 @@
  */
 void reset_to_98(int *n)
 {
-	int v;
-	int *p = 98;
-
-	p = &v;
-
-	return (98);
+	*n = 98;
 }
