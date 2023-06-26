@@ -5,9 +5,4 @@
  */
 void _puts(char *str)
 {
-	char ps;
-
-	ps = str;
-
-	_putchar(ps);
 }
