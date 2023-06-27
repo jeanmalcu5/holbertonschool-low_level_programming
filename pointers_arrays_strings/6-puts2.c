@@ -10,6 +10,6 @@ void puts2(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		_putchar(i);
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
