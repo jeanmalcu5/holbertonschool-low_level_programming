@@ -2,6 +2,7 @@
 /**
  * _atoi - converts a string to an integer.
  * @s: string.
+ * Return: res.
  */
 int _atoi(char *s)
 {
