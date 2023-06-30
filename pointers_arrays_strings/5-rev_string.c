@@ -5,9 +5,11 @@
  */
 void rev_string(char *s)
 {
-	int i;
+	int i = 0;
 	int j;
 	int len;
+
+	len = i;
 
 	for (j = len - 1; j >= 0; i--)
 	{
