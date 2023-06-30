@@ -5,4 +5,9 @@
  */
 void rev_string(char *s)
 {
+	for (j = len - 1; j >= 0; i--)
+	{
+		_putchar(s[j]);
+	}
+	_putchar('\n');
 }
