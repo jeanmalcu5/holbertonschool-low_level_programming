@@ -5,7 +5,7 @@
  * @src: source.
  * Return: value of dest pointer.
  */
-char *strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int len = 0, i;
 
