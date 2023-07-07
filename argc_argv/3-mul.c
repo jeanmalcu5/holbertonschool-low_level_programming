@@ -5,7 +5,7 @@
  * main - multiplies two numbers.
  * @argc: argument counter.
  * @argv: argument vector.
- * Return: 
+ * Return: 0 if sucessful, 1 to indicate error.
  */
 int main(int argc, char *argv[])
 {
