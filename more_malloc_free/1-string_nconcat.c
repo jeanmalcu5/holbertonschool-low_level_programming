@@ -11,14 +11,13 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *p;
-	int i; 
+	int i;
 
 	if (p == NULL)
 	{
 		return (NULL);
 	}
-	if (n >= )
+	if (n >= s2)
 	{
 	}
-
 }
