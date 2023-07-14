@@ -8,8 +8,8 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *p = malloc(sizeof(char) * (i + j + 1));
 	int i = 0, j = 0;
+	char *p = malloc(sizeof(char) * (i + j + 1));
 
 	if (s1 == NULL)
 	{
