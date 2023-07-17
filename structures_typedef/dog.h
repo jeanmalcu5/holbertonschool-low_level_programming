@@ -1,7 +1,7 @@
 #ifndef POPPY
 #define POPPY
 /**
- * dog - structure.
+ * struct dog - structure.
  * @name: of the dog.
  * @age: of the dog.
  * @owner: of the dog.
