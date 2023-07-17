@@ -1,6 +1,5 @@
 #ifndef POPPY
 #define POPPY
-#include <stdio.h>
 /**
  * dog - structure.
  * @name: of the dog.
