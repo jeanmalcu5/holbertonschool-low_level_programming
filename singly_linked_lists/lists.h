@@ -12,12 +12,12 @@
  *
  * Description: singly linked list node structure
  */
-typedef struct lists_s
+typedef struct list_s
 {
 char *str;
 unsigned int len;
-struct lists_s *next
-} lists_t;
+struct list_s *next
+} list_t;
 
 int _putchar(char c);
 size_t print_list(const list_t *h);
